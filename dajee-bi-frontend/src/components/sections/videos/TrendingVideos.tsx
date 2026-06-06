@@ -36,8 +36,8 @@ const quickKeywords = [
   "Ousmane Sonko",
   "Bassirou Diomaye Faye",
   "El Malick Ndiaye",
-  "Cheikh Bara Ndiaye",
-  "Pastef",
+  "nouveau gouvernement du senegal",
+  "Al Amine lo",
 ];
 
 function formatNumber(value: number) {

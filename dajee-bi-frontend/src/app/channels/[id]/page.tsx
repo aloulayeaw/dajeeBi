@@ -15,6 +15,8 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import ChannelGrowthChart from "@/components/charts/ChannelGrowthChart";
 import { fetchChannelAnalytics, fetchMediaChannels } from "@/lib/api";
+import ScrollToTop from "@/components/ui/ScrollToTop";
+import WhatsAppMe from "@/components/ui/WhatsAppMe";
 
 type Props = {
   params: Promise<{
@@ -263,6 +265,8 @@ export default function ChannelDetailPage({ params }: Props) {
         </section>
       </main>
 
+      <ScrollToTop />
+      <WhatsAppMe />
       <Footer />
     </>
   );

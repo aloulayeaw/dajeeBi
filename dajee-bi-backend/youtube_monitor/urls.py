@@ -13,4 +13,12 @@ urlpatterns = [
     path("media-events/", media_events_list),
     path("facebook-political-ranking/", facebook_political_ranking),
     path("facebook-political-posts/", facebook_political_posts),
+    path("x-political-ranking/", x_political_ranking),
+    path("x-political-posts/", x_political_posts),
+    path("analysis-dashboard/", analysis_dashboard),
+    path("live-analytics-report/", live_analytics_report),
+    path("live-report-dashboard/", live_report_dashboard),
+    path("live-snapshots/<uuid:live_id>/", live_snapshots_by_live),
+    path("ended-live-reports/", ended_live_reports),
+    
 ]

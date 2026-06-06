@@ -4,6 +4,8 @@ import BuzzHero from "@/components/sections/buzz/BuzzHero";
 import BuzzChannels from "@/components/sections/buzz/BuzzChannels";
 import LiveBuzzSection from "@/components/sections/buzz/LiveBuzzSection";
 import BreakingBuzz from "@/components/sections/buzz/BreakingBuzz";
+import ScrollToTop from "@/components/ui/ScrollToTop";
+import WhatsAppMe from "@/components/ui/WhatsAppMe";
 
 export default function BuzzPage() {
   return (
@@ -17,6 +19,8 @@ export default function BuzzPage() {
         <LiveBuzzSection />
       </main>
 
+      <ScrollToTop />
+      <WhatsAppMe />
       <Footer />
     </>
   );

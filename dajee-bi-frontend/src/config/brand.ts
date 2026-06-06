@@ -20,20 +20,20 @@ export const brand = {
       href: "/",
     },
 
-    {
-      label: "Tendances",
-      href: "/tendances",
-    },
+    // {
+    //   label: "Tendances",
+    //   href: "/tendances",
+    // },
 
     {
       label: "Live",
       href: "/live",
     },
 
-    {
-      label: "Influenceurs",
-      href: "/influenceurs",
-    },
+    // {
+    //   label: "Influenceurs",
+    //   href: "/influenceurs",
+    // },
 
     {
       label: "Vidéos",
@@ -45,6 +45,10 @@ export const brand = {
       href: "/buzz",
     },
 
+    {
+      label: "Chaines",
+      href: "/channels",
+    },
     {
       label: "Analyses",
       href: "/analyses",

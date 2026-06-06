@@ -167,7 +167,7 @@ export default function HeroSection({ stats }: { stats?: HeroStats }) {
             />
 
             <Image
-              src="/images/backgrounds/sideHome02.png"
+              src="/images/backgrounds/slideHome001.png"
               alt="Carte Afrique connectée aux médias"
               width={1400}
               height={1100}
